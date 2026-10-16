@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Belladore | Beauty & Cosmetics</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
+
+<header class="navbar">
+
+    <a href="index.html" class="brand">
+
+        <h1>BELLADORE</h1>
+
+        <span>BEAUTY & COSMETICS</span>
+
+    </a>
+
+
+    <nav>
+
+        <a href="index.html" class="active">Home</a>
+
+        <a href="about.html">About Us</a>
+
+        <a href="services.html">Services</a>
+
+        <a href="portfolio.html">Portfolio</a>
+
+        <a href="projects.html">Previous Projects</a>
+
+        <a href="contact.html">Contact Us</a>
+
+    </nav>
+
+
+    <div class="nav-icons">
+
+        <span title="Search">⌕</span>
+
+        <span title="Favorites">♡</span>
+
+        <span title="Bag">▢</span>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero">
+
+
+
+    <img
+        src="https://uploads.onecompiler.io/44vy4qk2a/1792153306656/front%20.jpg"
+        alt="Belladore Luxury Beauty"
+        class="hero-image"
+    >
+
+
+    <div class="hero-overlay"></div>
+
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            BEAUTY • LUXURY • CONFIDENCE
+        </p>
+
+
+        <h2>
+
+            More Than Beauty,
+
+            <br>
+
+            It's a <em>Feeling.</em>
+
+        </h2>
+
+
+        <p class="hero-description">
+
+            Belladore brings you premium, high-performance
+            cosmetics crafted for the modern woman who
+            embraces both softness and power.
+
+        </p>
+
+
+        <a
+            href="#best-sellers"
+            class="gold-button"
+        >
+            EXPLORE COLLECTION
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CATEGORIES
+===================================================== -->
+
+<section class="categories">
+
+
+    <div class="category-card">
+
+        <span>01</span>
+
+        <h3>Makeup</h3>
+
+        <a href="portfolio.html">Explore Collection →</a>
+
+    </div>
+
+
+    <div class="category-card">
+
+        <span>02</span>
+
+        <h3>Skincare</h3>
+
+        <a href="portfolio.html">Explore Collection →</a>
+
+    </div>
+
+
+    <div class="category-card">
+
+        <span>03</span>
+
+        <h3>Fragrance</h3>
+
+        <a href="portfolio.html">Explore Collection →</a>
+
+    </div>
+
+
+    <div class="category-card">
+
+        <span>04</span>
+
+        <h3>Beauty Tools</h3>
+
+        <a href="services.html">Explore Collection →</a>
+
+    </div>
+
+
+    <div class="category-card">
+
+        <span>05</span>
+
+        <h3>Gift Sets</h3>
+
+        <a href="portfolio.html">Explore Collection →</a>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     BEST SELLERS
+===================================================== -->
+
+<section class="best-sellers" id="best-sellers">
+
+
+    <div class="section-header">
+
+
+        <div>
+
+            <p class="eyebrow">
+                BELLADORE FAVORITES
+            </p>
+
+            <h2>
+                Best Sellers
+            </h2>
+
+        </div>
+
+
+        <a href="portfolio.html">
+            VIEW ALL PRODUCTS →
+        </a>
+
+
+    </div>
+
+
+
+    <div class="product-grid">
+
+
+        <!-- =================================================
+             PRODUCT 1
+        ================================================= -->
+
+        <article
+            class="product-card"
+            data-product="Velvet Noir Eau de Parfum"
+            data-price="₱2,499"
+            data-description="A sophisticated fragrance created for unforgettable evenings and elegant moments."
+        >
+
+
+            <a
+                href="#"
+                class="product-link"
+                onclick="openProduct(event, this)"
+            >
+
+
+                <div class="product-image">
+
+                    <img
+                        src="images/perfume.jpg"
+                        alt="Velvet Noir Eau de Parfum"
+                    >
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <h3>
+                        Velvet Noir Eau de Parfum
+                    </h3>
+
+                    <p>
+                        ₱2,499
+                    </p>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <span class="view-product">
+                        VIEW PRODUCT →
+                    </span>
+
+                </div>
+
+            </a>
+
+
+        </article>
+
+
+
+        <!-- =================================================
+             PRODUCT 2
+        ================================================= -->
+
+        <article
+            class="product-card"
+            data-product="Luxe Matte Lipstick"
+            data-price="₱1,299"
+            data-description="A rich matte lipstick with a luxurious finish designed to complete your signature look."
+        >
+
+
+            <a
+                href="#"
+                class="product-link"
+                onclick="openProduct(event, this)"
+            >
+
+
+                <div class="product-image">
+
+                    <img
+                        src="images/lipstick.jpg"
+                        alt="Luxe Matte Lipstick"
+                    >
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <h3>
+                        Luxe Matte Lipstick
+                    </h3>
+
+                    <p>
+                        ₱1,299
+                    </p>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <span class="view-product">
+                        VIEW PRODUCT →
+                    </span>
+
+                </div>
+
+            </a>
+
+
+        </article>
+
+
+
+        <!-- =================================================
+             PRODUCT 3
+        ================================================= -->
+
+        <article
+            class="product-card"
+            data-product="Flawless Skin Foundation"
+            data-price="₱1,699"
+            data-description="A smooth, lightweight foundation that creates an elegant and flawless-looking finish."
+        >
+
+
+            <a
+                href="#"
+                class="product-link"
+                onclick="openProduct(event, this)"
+            >
+
+
+                <div class="product-image">
+
+                    <img
+                        src="images/foundation.jpg"
+                        alt="Flawless Skin Foundation"
+                    >
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <h3>
+                        Flawless Skin Foundation
+                    </h3>
+
+                    <p>
+                        ₱1,699
+                    </p>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <span class="view-product">
+                        VIEW PRODUCT →
+                    </span>
+
+                </div>
+
+            </a>
+
+
+        </article>
+
+
+
+        <!-- =================================================
+             PRODUCT 4
+        ================================================= -->
+
+        <article
+            class="product-card"
+            data-product="Enchanted Eyeshadow Palette"
+            data-price="₱1,899"
+            data-description="A versatile eyeshadow palette featuring elegant shades for soft daytime looks and dramatic evenings."
+        >
+
+
+            <a
+                href="#"
+                class="product-link"
+                onclick="openProduct(event, this)"
+            >
+
+
+                <div class="product-image">
+
+                    <img
+                        src="images/eyeshadow.jpg"
+                        alt="Enchanted Eyeshadow Palette"
+                    >
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <h3>
+                        Enchanted Eyeshadow Palette
+                    </h3>
+
+                    <p>
+                        ₱1,899
+                    </p>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <span class="view-product">
+                        VIEW PRODUCT →
+                    </span>
+
+                </div>
+
+            </a>
+
+
+        </article>
+
+
+
+        <!-- =================================================
+             PRODUCT 5
+        ================================================= -->
+
+        <article
+            class="product-card"
+            data-product="Night Repair Cream"
+            data-price="₱1,999"
+            data-description="A luxurious night cream designed to complement your nighttime skincare ritual."
+        >
+
+
+            <a
+                href="#"
+                class="product-link"
+                onclick="openProduct(event, this)"
+            >
+
+
+                <div class="product-image">
+
+                    <img
+                        src="images/cream.jpg"
+                        alt="Night Repair Cream"
+                    >
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <h3>
+                        Night Repair Cream
+                    </h3>
+
+                    <p>
+                        ₱1,999
+                    </p>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <span class="view-product">
+                        VIEW PRODUCT →
+                    </span>
+
+                </div>
+
+            </a>
+
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     LUXURY STRIP
+===================================================== -->
+
+<section class="luxury-strip">
+
+
+    <p>
+        THE BELLADORE EXPERIENCE
+    </p>
+
+
+    <h2>
+        Luxury in Every Detail.
+    </h2>
+
+
+    <div class="benefits">
+
+
+        <div>
+
+            <span>✦</span>
+
+            <div>
+
+                <h4>
+                    Premium Quality
+                </h4>
+
+                <small>
+                    Carefully designed beauty essentials.
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <span>✧</span>
+
+            <div>
+
+                <h4>
+                    Elegant Design
+                </h4>
+
+                <small>
+                    Inspired by modern luxury.
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <span>◇</span>
+
+            <div>
+
+                <h4>
+                    Secure Experience
+                </h4>
+
+                <small>
+                    A smooth and organized website.
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <span>♡</span>
+
+            <div>
+
+                <h4>
+                    Made With Care
+                </h4>
+
+                <small>
+                    Beauty created with purpose.
+                </small>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     PRODUCT POPUP
+===================================================== -->
+
+<div
+    id="productModal"
+    class="product-modal"
+>
+
+
+    <div class="modal-content">
+
+
+        <button
+            class="close-modal"
+            onclick="closeProduct()"
+        >
+            ×
+        </button>
+
+
+        <p class="eyebrow">
+            BELLADORE BEAUTY
+        </p>
+
+
+        <h2 id="modalProductName">
+            Product Name
+        </h2>
+
+
+        <p
+            id="modalProductPrice"
+            class="modal-price"
+        >
+            ₱0
+        </p>
+
+
+        <p
+            id="modalProductDescription"
+            class="modal-description"
+        >
+            Product description.
+        </p>
+
+
+        <button
+            class="modal-button"
+            onclick="addToBag()"
+        >
+            ADD TO BAG
+        </button>
+
+
+        <a
+            href="contact.html"
+            class="modal-contact"
+        >
+            INQUIRE ABOUT THIS PRODUCT →
+        </a>
+
+
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+
+    <div class="footer-logo">
+
+        <h2>
+            BELLADORE
+        </h2>
+
+        <p>
+            BEAUTY & COSMETICS
+        </p>
+
+    </div>
+
+
+    <div class="footer-links">
+
+        <a href="about.html">
+            About
+        </a>
+
+        <a href="services.html">
+            Services
+        </a>
+
+        <a href="portfolio.html">
+            Portfolio
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+    </div>
+
+
+    <p>
+        © 2026 Belladore. All rights reserved.
+    </p>
+
+
+</footer>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
